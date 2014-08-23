@@ -97,8 +97,22 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
     }
+}
+
+.no-a {
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:visited {
+      color: darken($text-color, 15%);
+    }
+
+    &:hover {
+      color: $text-color;
+    }
+  }
 }
 
 
