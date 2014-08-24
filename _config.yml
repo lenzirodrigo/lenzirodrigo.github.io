@@ -5,10 +5,9 @@ last: Lenzi
 email: lenzirodrigo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://lenzirodrigo.com.ar" # the base hostname & protocol for your site
 twitter_username: lenzirodrigo
 github_username:  lenzirodrigo
-linkedin_url: https://linkedin.com/in/
 linkedin_username: lenzirodrigo
 facebook_username: lenzirodrigo
 soundcloud_username: lenzirodrigo

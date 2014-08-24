@@ -105,9 +105,10 @@
 
 .contact-list,
 .social-media-list {
+    float: left;
     margin-left: 0px;
     font-size: 26px;
-    line-height: 56px;
+    line-height: 5px;
     letter-spacing: -1px;
     text-transform: uppercase;
     div {
@@ -115,6 +116,11 @@
       padding-right: 20px;
     }
 
+}
+
+.site-footer-right {
+  float: right;
+  text-transform: uppercase;
 }
 
 @include media-query($on-laptop) {
