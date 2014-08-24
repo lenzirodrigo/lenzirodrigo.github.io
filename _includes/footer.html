@@ -1,47 +1,55 @@
 <footer class="site-footer">
 
-  <div class="wrapper no-a">
+    <div class="wrapper no-a">
         <div class="social-media-list">
-          {% if  site.email  %}
-          <div>
-              <a href="mailto:{{ site.email }}">
-              <i class="fa fa-envelope"></i>
-            </a>
+            {% if site.email %}
+            <div>
+                <a href="mailto:{{ site.email }}">
+                    <i class="fa fa-envelope"></i>
+                </a>
             </div>
-          {% endif %}
+            {% endif %}
 
-          {% if site.linkedin_username %}
-          <div>
-            <a href="{{site.linkedin_url}}{{ site.linkedin_username }}">
-              <i class="fa fa-linkedin"></i>
-            </a>
+            {% if site.linkedin_username %}
+            <div>
+                <a href="{{site.linkedin_url}}{{ site.linkedin_username }}">
+                    <i class="fa fa-linkedin"></i>
+                </a>
             </div>
-          {% endif %}
+            {% endif %}
 
-          {% if site.facebook_username %}
-          <div>
-              <a href="https://facebook.com/{{ site.facebook_username }}">
-                  <i class="fa fa-facebook"></i>
-              </a>
-          </div>
-          {% endif %}
+            {% if site.facebook_username %}
+            <div>
+                <a href="https://facebook.com/{{ site.facebook_username }}">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+            {% endif %}
 
-          {% if site.github_username %}
-          <div>
-            <a href="https://github.com/{{ site.github_username }}">
-               <i class="fa fa-github"></i>
-            </a>
-          </div>
-          {% endif %}
+            {% if site.github_username %}
+            <div>
+                <a href="https://github.com/{{ site.github_username }}">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+            {% endif %}
 
-          {% if site.twitter_username %}
-          <div>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-                <i class="fa fa-twitter"></i>
-            </a>
-          </div>
-          {% endif %}
+            {% if site.twitter_username %}
+            <div>
+                <a href="https://twitter.com/{{ site.twitter_username }}">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+            {% endif %}
+
+            {% if site.soundcloud_username %}
+            <div>
+                <a href="https://soundcloud.com/{{ site.soundcloud_username }}">
+                    <i class="fa fa-soundcloud"></i>
+                </a>
+            </div>
+            {% endif %}
         </div>
-  </div>
+    </div>
 
 </footer>
